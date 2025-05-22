@@ -1,13 +1,15 @@
+// 1.Develop a Java program for adding elements [Apple, Banana, Orange] into an ArrayList and a LinkedList to perform the following operations with different functions directed as follows 1. Adding elements, 2. Adding element at specific index, 3. Adding multiple elements, 4.  Accessing elements,5. Updating elements, 6. Removing elements, 7. Searching elements, 8. List  size, 9. Iterating over list, 10. Using Iterator, 11. Sorting, 12. Sublist, 13. Clearing the list
 package ArrayListandLinkedList.Lab1a_ArrayLinkedList;
 import java.util.*;
-public class ArrayandLinkedList {
-
+public class ArrayandLinkedList{
     public static void main(String[] args) {
         // 1. Adding elements
         List<String> arrayList = new ArrayList<>();
         List<String> linkedList = new LinkedList<>();
+
         addElements(arrayList);
         addElements(linkedList);
+
         System.out.println("Initial ArrayList: " + arrayList);
         System.out.println("Initial LinkedList: " + linkedList);
 
@@ -45,6 +47,7 @@ public class ArrayandLinkedList {
         for (String fruit : arrayList) {
             System.out.println(fruit);
         }
+
         System.out.println("\nLinkedList elements:");
         for (String fruit : linkedList) {
             System.out.println(fruit);
@@ -56,7 +59,7 @@ public class ArrayandLinkedList {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
+        
         // 11. Sorting
         Collections.sort(arrayList);
         Collections.sort(linkedList);
@@ -82,6 +85,3 @@ public class ArrayandLinkedList {
         list.add("Orange");
     }
 }
-
-    
-
