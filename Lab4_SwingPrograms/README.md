@@ -1,4 +1,4 @@
-## Program 5-Swing Programs
+## Program 4-Swing Programs
 
 
 - [Lab4a_SwingExample](https://github.com/nikshitha-p-rai-29/Java_Programs/blob/main/Lab4_SwingPrograms/PLab4a_SwingExample.png)
