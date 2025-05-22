@@ -1,7 +1,6 @@
-##  Program 7B: CookieManagement
-
+##  Program 7B: Cookie Management
 
 - [Lab7b_CookieManagement](https://github.com/nikshitha-p-rai-29/Java_Programs/blob/main/Lab7b_CookieManagement/7b_CookieManagement.jpeg)
-## Program 7B: CookieMangement
+
 
 
