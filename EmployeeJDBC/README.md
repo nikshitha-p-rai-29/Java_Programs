@@ -1,6 +1,6 @@
 ## Program -Employee JDBC
 
-- [8c_insert]https://github.com/nikshitha-p-rai-29/Java_Programs/blob/main/EmployeeJDBC/8c_insert.png)
+- [8c_insert](https://github.com/nikshitha-p-rai-29/Java_Programs/blob/main/EmployeeJDBC/8c_insert.png)
 
 - [8d_updateEmployee](https://github.com/nikshitha-p-rai-29/Java_Programs/blob/main/EmployeeJDBC/8d_update.png)
 
