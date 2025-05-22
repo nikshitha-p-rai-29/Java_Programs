@@ -1,7 +1,7 @@
 // 10. Write a Java Program for Counting the number of words in a string using user defined function  countWords() 
 package Lab3_StringOperations.Lab3c_StringOperations;
 import java.util.*;
-public class countWords {
+public class Lab3c_countWords {
     public static int Countwords(String str) {
         if (str == null || str.trim().isEmpty()) {
             return 0; 

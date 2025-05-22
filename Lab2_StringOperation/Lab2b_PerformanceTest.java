@@ -2,7 +2,7 @@
 package Lab2_StringOperation;
 public class Lab2b_PerformanceTest {
 public static void main(String[] args) {
-          StringBuffer stringBuffer = new StringBuffer();
+        StringBuffer stringBuffer = new StringBuffer();
         long startBuffer = System.nanoTime();
         for (int i = 0; i < 10000; i++) {
             stringBuffer.append("AIET");

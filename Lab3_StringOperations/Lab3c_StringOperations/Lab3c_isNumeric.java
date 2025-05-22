@@ -1,8 +1,8 @@
 // 8.Write a Java Program for Verifying if a string contains only numeric characters using user defined  function isNumeric() 
 package Lab3_StringOperations.Lab3c_StringOperations;
 import java.util.Scanner;
-public class isNumeric {
-    public static boolean isNumeric(String str) {
+public class Lab3c_isNumeric {
+    public static boolean isnumeric(String str) {
         if (str == null || str.isEmpty()) {
             return false;
         }
@@ -17,7 +17,7 @@ public class isNumeric {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        if (isNumeric(input)) {
+        if (isnumeric(input)) {
             System.out.println("The string contains only numeric characters.");
         } else {
             System.out.println("The string contains non-numeric characters.");

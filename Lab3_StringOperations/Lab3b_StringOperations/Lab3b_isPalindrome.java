@@ -1,8 +1,8 @@
 //4.Write a Java Program for Checking if a string reads the same backward as forward (ignoring case  and punctuation) using user defined function isPalindrome()
 package Lab3_StringOperations.Lab3b_StringOperations;
 import java.util.Scanner;
-public class isPalindrome {
-    public static boolean isPalindrome(String str) {
+public class Lab3b_isPalindrome {
+    public static boolean isPalindrom(String str) {
         String pal = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         int left = 0;
         int right = pal.length() - 1;
@@ -19,7 +19,7 @@ public class isPalindrome {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        if (isPalindrome(input)) {
+        if (isPalindrom(input)) {
             System.out.println("The string is a palindrome.");
         } else {
             System.out.println("The string is not a palindrome.");

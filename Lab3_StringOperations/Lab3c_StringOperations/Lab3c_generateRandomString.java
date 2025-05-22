@@ -2,7 +2,7 @@
 package Lab3_StringOperations.Lab3c_StringOperations;
 import java.util.Random;
 import java.util.Scanner;
-public class generateRandomString {
+public class Lab3c_generateRandomString {
     public static String generaterandomString(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
