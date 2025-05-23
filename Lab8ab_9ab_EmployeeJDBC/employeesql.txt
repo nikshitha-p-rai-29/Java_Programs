@@ -1,9 +1,0 @@
--- Create Database and Table
-
-CREATE DATABASE Employee;
-USE Employee;
-CREATE TABLE Emp (
-Emp_NO INTEGER PRIMARY KEY, 
- Emp_Name TEXT NOT NULL, 
- Basicsalary INTEGER  
-); 
