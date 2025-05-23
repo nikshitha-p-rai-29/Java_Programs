@@ -1,0 +1,9 @@
+--CREATE DATABASE test;
+
+USE test;
+
+CREATE TABLE coffee (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    price DOUBLE
+);
